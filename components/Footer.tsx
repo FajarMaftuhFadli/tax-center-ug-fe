@@ -132,7 +132,7 @@ export default function Footer() {
                       href="javascript:void(0)"
                       className="transition-colors duration-300 hover:text-blue-500 focus:text-blue-600"
                     >
-                      FAQ's
+                      FAQ&apos;s
                     </a>
                   </li>
                   <li className="mb-2 leading-6">
