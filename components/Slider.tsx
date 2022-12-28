@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useEffect } from "react";
 import Glide from "@glidejs/glide";
 
@@ -11,6 +12,23 @@ export default function Slider() {
       animationDuration: 700,
       gap: 0,
       classes: {
+        direction: {
+          ltr: "glide--ltr",
+          rtl: "glide--rtl",
+        },
+        type: {
+          slider: "glide--slider",
+          carousel: "glide--carousel",
+        },
+        swipeable: "glide--swipeable",
+        dragging: "glide--dragging",
+        slide: {
+          clone: "glide__slide--clone",
+          active: "glide__slide--active",
+        },
+        arrow: {
+          disabled: "glide__arrow--disabled",
+        },
         nav: {
           active: "[&>*]:bg-slate-700",
         },
@@ -33,30 +51,35 @@ export default function Slider() {
               <img
                 src="https://Tailwindmix.b-cdn.net/image-03.jpg"
                 className="w-full max-w-full max-h-full m-auto"
+                alt=""
               />
             </li>
             <li>
               <img
                 src="https://Tailwindmix.b-cdn.net/image-04.jpg"
                 className="w-full max-w-full max-h-full m-auto"
+                alt=""
               />
             </li>
             <li>
               <img
                 src="https://Tailwindmix.b-cdn.net/image-05.jpg"
                 className="w-full max-w-full max-h-full m-auto"
+                alt=""
               />
             </li>
             <li>
               <img
                 src="https://Tailwindmix.b-cdn.net/image-01.jpg"
                 className="w-full max-w-full max-h-full m-auto"
+                alt=""
               />
             </li>
             <li>
               <img
                 src="https://Tailwindmix.b-cdn.net/image-02.jpg"
                 className="w-full max-w-full max-h-full m-auto"
+                alt=""
               />
             </li>
           </ul>
