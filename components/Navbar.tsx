@@ -88,7 +88,7 @@ export default function Navbar() {
                   aria-haspopup="false"
                   tabIndex={0}
                   className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-blue-500 focus:bg-blue-50 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  href="#"
                 >
                   <span>Features</span>
                 </a>
@@ -100,7 +100,7 @@ export default function Navbar() {
                   aria-haspopup="false"
                   tabIndex={0}
                   className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-blue-600 focus:bg-blue-50 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  href="#"
                 >
                   <span>Pricing</span>
                 </a>
@@ -111,7 +111,7 @@ export default function Navbar() {
                   aria-haspopup="false"
                   tabIndex={0}
                   className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-blue-500 focus:bg-blue-50 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  href="#"
                 >
                   <span>About</span>
                 </a>
