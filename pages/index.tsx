@@ -1,6 +1,7 @@
 import Head from "next/head";
 import type { ReactElement } from "react";
 import Layout from "../components/Layout";
+import Slider from "../components/Slider";
 import type { NextPageWithLayout } from "./_app";
 
 const Home: NextPageWithLayout = () => {
@@ -13,11 +14,7 @@ const Home: NextPageWithLayout = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="p-40">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tempora
-          reiciendis nesciunt doloremque recusandae illo porro vitae, sint totam
-          odit sequi non ad itaque quos tempore animi voluptatum vel vero!
-        </div>
+        <Slider />
       </main>
     </>
   );
